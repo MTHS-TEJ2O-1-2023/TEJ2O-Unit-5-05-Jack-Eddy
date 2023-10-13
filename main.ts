@@ -27,3 +27,4 @@ basic.forever(function() {
         basic.pause(1000)
         stripYellow.showColor(neopixel.colors(NeoPixelColors.Black))
     })
+    
