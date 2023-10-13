@@ -9,6 +9,9 @@
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 basic.pause(1000)
+basic.forever(function() {
+  pins.digitalWritePin(DigitalPin.P16, 1)
+})
 
     input.onButtonPressed(Button.A, function () {
         let stripGreen = neopixel.create(DigitalPin.P16, 12, NeoPixelMode.RGB)
