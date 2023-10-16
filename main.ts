@@ -2,7 +2,7 @@
  *
  * Created by: Jack Eddy
  * Created on: Oct 2023
- * This program activates Neopixels
+ * This program creates traffic lights using the robotbits neopixels
 */
 
 // variables
@@ -18,21 +18,21 @@ neopixelStrip.show()
 basic.showIcon(IconNames.Happy)
 
 input.onButtonPressed(Button.A, function () {
-    basic.showIcon(IconNames.Square)
-    neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Green))
-    neopixelStrip.show()
-    basic.pause(1000)
-    neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))
-    neopixelStrip.show()
-    neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Yellow))
-    neopixelStrip.show()
-    basic.pause(1000)
-    neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))
-    neopixelStrip.show()
-    neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Red))
-    neopixelStrip.show()
-    basic.pause(1000)
-    neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
-    neopixelStrip.show()
-    basic.showIcon(IconNames.Happy)
+  basic.showIcon(IconNames.Square)
+  neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Green))
+  neopixelStrip.show()
+  basic.pause(1000)
+  neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))
+  neopixelStrip.show()
+  neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Yellow))
+  neopixelStrip.show()
+  basic.pause(1000)
+  neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))
+  neopixelStrip.show()
+  neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Red))
+  neopixelStrip.show()
+  basic.pause(1000)
+  neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
+  neopixelStrip.show()
+  basic.showIcon(IconNames.Happy)
 })
