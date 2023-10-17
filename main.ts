@@ -18,7 +18,6 @@ neopixelStrip.show()
 basic.showIcon(IconNames.Happy)
 
 input.onButtonPressed(Button.A, function () {
-  basic.showIcon(IconNames.Square)
   neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Green))
   neopixelStrip.show()
   basic.pause(1000)
