@@ -2,7 +2,7 @@
  *
  * Created by: Jack Eddy
  * Created on: Oct 2023
- * This program creates traffic lights using the robotbits neopixels
+ * This program activates Neopixels
 */
 
 // variables
